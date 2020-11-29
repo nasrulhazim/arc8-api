@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Create SQLite Database
+touch database/database.sqlite
+
+bin/clear-cache
+
+echo "🎉 Creating tables and seed data"
+php artisan migrate:fresh --seed --quiet

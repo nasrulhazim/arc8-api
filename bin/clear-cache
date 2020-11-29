@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo "🎉 Clearing caches"
+
+php artisan cache:clear --quiet
+
+composer dumpautoload -o --quiet --no-ansi --no-interaction
