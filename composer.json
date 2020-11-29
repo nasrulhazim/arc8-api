@@ -1,7 +1,7 @@
 {
-    "name": "laravel/lumen",
-    "description": "The Laravel Lumen Framework.",
-    "keywords": ["framework", "laravel", "lumen"],
+    "name": "nasrulhazim/arc8-api",
+    "description": "The Pre-Configured API Code Base.",
+    "keywords": ["framework", "laravel", "lumen", "api"],
     "license": "MIT",
     "type": "project",
     "require": {
