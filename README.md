@@ -1,11 +1,29 @@
-# Lumen PHP Framework
+# Arc8 API
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
+Arc8 API is a pre-configured API Codes based on [Lumen](https://lumen.laravel.com) that help developers to jumpstart quickly on API development.
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+Arc8 API is already configured with [Dingo API](https://github.com/dingo/api).
+
+## Development
+
+There is few pre-built features provided in `arc8-api`.
+
+### Reload Commands
+
+```
+# Clear all caches
+bin/clear-cache
+
+# Apply PHP CS Fixer
+bin/clear-cache
+
+# Reload Database
+bin/reload-db
+```
+
+### Installation
+
+First time setup you may want to run `bin/install` - but make sure your `.env` is update accordingly and database created before run the script.
 
 ## Official Documentation
 
@@ -17,7 +35,7 @@ Thank you for considering contributing to Lumen! The contribution guide can be f
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Lumen, please send an e-mail to Nasrul Hazim at nasrul@cleaniquecoders.com. All security vulnerabilities will be promptly addressed.
 
 ## License
 
