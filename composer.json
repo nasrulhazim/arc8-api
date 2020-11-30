@@ -9,6 +9,7 @@
         "dingo/api": "^3.0",
         "illuminate/redis": "^8.16",
         "laravel/lumen-framework": "^8.0",
+        "laravel/tinker": "^2.5",
         "predis/predis": "^1.1"
     },
     "require-dev": {
